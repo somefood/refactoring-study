@@ -1,6 +1,5 @@
 package me.whiteship.refactoring._04_long_parameter_list.practice._14_replace_parameter_with_query;
 
-import me.whiteship.refactoring._04_long_parameter_list._14_replace_parameter_with_query.Order;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -11,7 +10,7 @@ class OrderTest {
     void discountedPriceWithDiscountLevel2() {
         int quantity = 200;
         double price = 100;
-        assertEquals(quantity * price * 0.90, new me.whiteship.refactoring._04_long_parameter_list._14_replace_parameter_with_query.Order(quantity, price).finalPrice());
+        assertEquals(quantity * price * 0.90, new Order(quantity, price).finalPrice());
     }
 
     @Test
