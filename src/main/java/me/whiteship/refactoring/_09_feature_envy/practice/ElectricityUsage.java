@@ -18,4 +18,8 @@ public class ElectricityUsage {
     public double getPricePerUnit() {
         return pricePerUnit;
     }
+
+    double getElecticityBill() {
+        return getAmount() * getPricePerUnit();
+    }
 }
