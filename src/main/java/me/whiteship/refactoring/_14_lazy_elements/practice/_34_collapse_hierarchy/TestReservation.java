@@ -2,9 +2,6 @@ package me.whiteship.refactoring._14_lazy_elements.practice._34_collapse_hierarc
 
 import java.time.LocalDateTime;
 
-public class CourtReservation extends Reservation {
-
-    private String courtNumber;
-
+public class TestReservation extends Reservation{
     private LocalDateTime startDateTime;
 }

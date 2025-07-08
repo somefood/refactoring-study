@@ -5,8 +5,6 @@ import java.util.List;
 
 public class Reservation {
 
-    private LocalDateTime startDateTime;
-
     private LocalDateTime endDateTime;
 
     private List<String> members;
