@@ -1,0 +1,6 @@
+package me.whiteship.refactoring._23_refused_bequest.practice;
+
+public class Salesman extends Employee {
+
+}
+
