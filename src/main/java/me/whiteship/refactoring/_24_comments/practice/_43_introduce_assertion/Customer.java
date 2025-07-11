@@ -13,6 +13,10 @@ public class Customer {
     }
 
     public void setDiscountRate(Double discountRate) {
+        assert discountRate != null && discountRate > 0;
+//        if (discountRate != null && discountRate > 0) {
+//            throw new IllegalArgumentException("Discount rate must be greater than 0");
+//        }
         this.discountRate = discountRate;
     }
 }
