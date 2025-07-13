@@ -3,15 +3,9 @@ package me.whiteship.refactoring;
 public class GuardClauses {
 
     public int getPoints() {
-        int result;
-        if (isVip()) {
-            result = vipPoint();
-        } else if (isPlat()) {
-            result = platPoint();
-        } else {
-            result = normalPoint();
-        }
-        return result;
+        if (isVip()) return vipPoint();
+        if (isPlat()) return platPoint();
+        return normalPoint();
     }
 
     private int normalPoint() {
